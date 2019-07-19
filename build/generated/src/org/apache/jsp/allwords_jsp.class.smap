@@ -1,0 +1,14 @@
+SMAP
+allwords_jsp.java
+JSP
+*S JSP
+*F
++ 0 allwords.jsp
+allwords.jsp
+*L
+5,59:45
+64:104,2
+65,60:106
+125:166,2
+126,383:168
+*E

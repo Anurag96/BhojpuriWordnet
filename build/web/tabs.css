@@ -1,0 +1,128 @@
+
+sub{
+    font-size: 10px;
+}
+#tabSynsetID{
+    text-decoration: none;
+    
+}
+#tabSynsetID:hover{
+    font-style: italic;
+}
+#navigation{
+    border:none; 
+}
+
+#navigation a{
+    padding:4px 10px 4px 10px;
+    text-decoration:none;
+    display:inline-block;
+}
+
+#navigation a:hover{
+    text-decoration:underline;
+    background:#eee;
+}
+
+
+#tabcontainer{
+    clear:both;
+}
+
+
+.tabcontainer{
+    padding:10px;
+    border:1px solid #666;
+    background:#FFF;
+}
+
+
+.navigation{
+    float:left; 
+    border-top:1px solid #666;
+    border-left:1px solid #666;
+    border-right:1px solid #666;
+    margin-bottom:-1px;
+    background-color: #fff;
+}
+
+.tabselected{
+    float:left;
+    height:35px;
+    border-top:1px solid #666;
+    border-left:1px solid #666;
+    border-right:1px solid #666;
+    margin-bottom:-1px;
+    z-index:1000;
+    border-bottom:1px solid #fff;
+    background-color: #fff;
+}
+
+.tabdeselected{
+    float:left;
+    height:35px;
+    border-top:1px solid #666;
+    border-left:1px solid #666;
+    border-right:1px solid #666;
+    border-bottom:1px solid #666;
+    margin-bottom:-1px;
+    z-index:10;
+    background-color: #ddd;
+}
+
+.vtabheader{
+    background-color: #71caf4;
+    color: #fff;
+    border:1px solid #fff;
+}
+
+.vtabheaderlink{
+    width:auto;
+    height:25px;
+    padding:5px 300px 5px 20px;
+    text-decoration: none;
+}
+
+#lshift{
+    float: left;
+    padding:4px;
+}
+
+#rshift{
+    float:right;
+    padding:4px;
+}
+
+
+/* Overflow CSS */
+
+.relationLinkDivStyle{
+    display:inline-block;
+    margin-right: 3px;
+}
+
+.relationLinkOverflowDivStyle{
+    display:block;
+}
+
+.relationLinkStyle{
+    padding:5px 5px 5px 5px;
+    text-decoration: none;
+    background-color: #fff;
+    border: 1px solid #000;
+}
+
+.relationLinkStyle:hover{
+    padding:5px 10px 5px 10px;
+    text-decoration: underline;
+    background-color: #eee;
+}
+
+.overflowArea{
+    display: none; 
+    border:1px solid #000;
+    background-color: #fff; 
+    z-index:1200; 
+    padding:10px;
+    overflow:auto;
+}

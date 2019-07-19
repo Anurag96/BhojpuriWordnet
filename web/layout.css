@@ -1,0 +1,34 @@
+@charset "utf-8";
+/* CSS Document */
+p{
+    font-family:Georgia, Arial,Sans-serif;
+    font-size: 16px;  
+    text-align:justify;
+    line-height: 25px;
+}
+
+
+.synsGramInfo{
+    width: 110px;
+    text-align: right;
+display: inline-block;
+vertical-align:top;
+   line-height: 25px;
+}
+
+
+.synsInfo{
+margin-left: 20px;
+    display: inline-block;
+width:400px;
+   line-height: 25px;
+
+}
+
+#HoldSynset{
+    background-color:  #fff;
+padding: 5px 3px 10px 3px;
+display: none;
+border: 1px solid #000000;
+}
+

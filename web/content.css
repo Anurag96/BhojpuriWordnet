@@ -1,0 +1,26 @@
+@charset "utf-8";
+/* CSS Document */
+
+#contentcolumn p{
+	text-align:justify;
+}
+
+#searchbar{
+	width:640px;
+	clear:both;
+	overflow:hidden;
+	margin-bottom:10px;
+}
+
+#searchbar input{
+	border:1px solid #479fc9;
+	padding:3px;
+	font-size:16px;
+}
+
+#container{
+	width:640px;
+	overflow:hidden;
+}
+
+
